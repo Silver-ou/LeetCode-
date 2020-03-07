@@ -1,0 +1,21 @@
+1.  获取字符串长度:
+      str.length();
+
+2.  如何遍历一个字符串:
+      for(int i=0;i<s.length();i++){
+              s.charAt(i);  -->即为字符串s第i个位置的字符
+      }
+      
+3.  如何截断字符串:
+      s.substring(a,b);  --> 截断字符串s从a到b的字串（包括a的位置但不包括b的位置）
+
+4.  如何在字符串指定位置插入字符或字符串:
+      s.insert(i,str);   -->在第i个位置插入str
+      
+5.  在末尾处添加字符串:
+      s.append(str);
+      
+6.   StringBuffer转成String：
+      s = stringbuffer.toString();
+ 
+ 
