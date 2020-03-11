@@ -17,5 +17,9 @@
       
 6.   StringBuffer转成String：
       s = stringbuffer.toString();
+
+7.  关于Arraylist用法:
+      创建一个新的arraylist: ArrayList<Integer> list = new ArrayList<>();
+      在指定位置插入值: arraylist.add(index,val);  --> 在第index个位置插入val
  
  
