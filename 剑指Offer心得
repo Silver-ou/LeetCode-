@@ -21,5 +21,16 @@
 7.  关于Arraylist用法:
       创建一个新的arraylist: ArrayList<Integer> list = new ArrayList<>();
       在指定位置插入值: arraylist.add(index,val);  --> 在第index个位置插入val
+      arraylist.add(val);  -->直接在后面插入值
+ 
+8.   Java中，Stack 是一个类，而Queue是一个接口。
+      创建一个stack : Stack<Integer> stack = new Stack<>();
+      创建一个Queue: 
+                  import java.util.Queue；
+                  import java.util.LinkedList;
+                  Queue<Integer> queue = new LinkedList<>();
+                        queue.offer(val) -->相当于push操作
+                        queue.poll() -->相当于pop操作
+                        queue.isEmpty()  -->判断是否为空
  
  
